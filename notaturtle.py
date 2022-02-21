@@ -8,10 +8,10 @@ colours=["red","blue","green",]
 
 def rhombus(aTurtle):
     for i in range(2):
-        bob.forward(100)
-        bob.right(60)
-        bob.forward(100)
-        bob.right(120)
+        aTurtle.forward(100)
+        aTurtle.right(60)
+        aTurtle.forward(100)
+        aTurtle.right(120)
 
 for i in range(360):
     rhombus(bob)
